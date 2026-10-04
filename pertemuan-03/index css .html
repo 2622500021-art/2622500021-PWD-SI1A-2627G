@@ -70,7 +70,7 @@
                 margin: 4px 0;
                 border: 1px solid #94a3b8;
             }
-
+s
             #contact button {
                 background-color: #003366;
                 color: #ffffff;
@@ -79,11 +79,12 @@
                 margin: 8px 6px 0 0;
                 border: 1px solid #003366;
             }
+
         </style>
     </head>
     <body>
         <header>
-            <h1>PROFIL SAYA</h1>
+            <h1>PROFIL SAYA<hr></h1>
             <nav>
                 <ul>
                 <li><a href="#home">Beranda</a></li>
@@ -95,9 +96,12 @@
 
             <main>
                 <section id="home">
-                    <h2>Halo! Selamat Datang</h2>
-                    <p>Hai teman-teman, perkenalkan nama saya Liristiari. Saya biasa dipanggil Riris. Asal daerah saya adalah kecamatan Mentok Kabuppaten Bangka Barat.</p>
-                    <img src="../Foto.jpeg" alt="Foto Profil Mahasiswa" width="200">
+                    <hr>
+
+                    <h2>Halo! Selamat Datang<span class="emoticon">😊</span></h2>
+                    <p>Hai teman-teman, perkenalkan nama saya <strong>Liristiari</strong>. Saya biasa dipanggil <strong>Riris</strong>. Asal daerah saya adalah kecamatan <i>Mentok</i> Kabupaten <i>Bangka Barat</i>.</p>
+                    <div class="bingkai-foto">
+                        <img src="../Foto.jpeg" alt="Foto Profil Mahasiswa" width="200">
                 </section>
 
                 <section id="about">
@@ -133,6 +137,7 @@
 
                     <form action="index.html" method="get">
                         <div class="form-group">
+                            <br>
                             <label for="nama">Nama Lengkap:</label><br />
                             <input
                             class="input-form"
@@ -147,18 +152,20 @@
                         </div>
 
                         <div class="form-group">
+                            <br>
                             <label for="email">Email:</label><br />
                             <input class="input-form" type="email" id="email" name="email"
                 placeholder="2622500021@mahasiswa.atmaluhur.ac.id" required />
                         </div>
-
+                        <br>
                         <div class="form-group">
                             <label for="Semester">Semester:</label>
                             <input class="input-form" type="number" id="semester" name="semester" min="1" 
-                max="14" required />
+                max="8" required />
                         </div>
 
                            <div class="form-group">
+                            <br>
                             <label for="tanggal">Tanggal Kunjungan:</label><br />
                             <input class="input-form" type="date" id="tanggal" name="tanggal" required />
                         </div>
@@ -181,6 +188,7 @@
                         </div>
 
                         <div class="form-group">
+                            <br>
                             <label for="prodi">Program Studi:</label><br />
                             <select class="input-form" id="prodi" name="prodi" required>
                                 <option value="">-- Pilih Program Studi --</option>
@@ -189,7 +197,7 @@
                                 <option value="BD">Bisnis Digital</option>
                             </select>
                         </div>
-
+                        <br>
                         <button type="submit">Kirim</button>
                         <button type="reset">Batal</button>
                         </form>
