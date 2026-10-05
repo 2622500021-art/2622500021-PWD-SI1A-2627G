@@ -53,8 +53,8 @@
                 margin-bottom: 16px;
             }
 
-            .from grup {
-                margin-bottom: 12px;
+            .form-group {
+                margin-bottom: 12px 0;
             }
 
             #contact label {
@@ -64,9 +64,10 @@
 
             .input-from {
                 background-color: #ffffff;
-                color: #1f2937;
-                font-weight: bold;
-                padding: 8px 14px;
+                color: #111827;
+                font-family: Arial, sans-serif;
+                font-size: 16px;
+                padding: 8px;
                 margin: 4px 0;
                 border: 1px solid #94a3b8;
             }
@@ -79,7 +80,6 @@ s
                 margin: 8px 6px 0 0;
                 border: 1px solid #003366;
             }
-
         </style>
     </head>
     <body>
@@ -97,7 +97,6 @@ s
             <main>
                 <section id="home">
                     <hr>
-
                     <h2>Halo! Selamat Datang<span class="emoticon">😊</span></h2>
                     <p>Hai teman-teman, perkenalkan nama saya <strong>Liristiari</strong>. Saya biasa dipanggil <strong>Riris</strong>. Asal daerah saya adalah kecamatan <i>Mentok</i> Kabupaten <i>Bangka Barat</i>.</p>
                     <div class="bingkai-foto">
@@ -188,7 +187,6 @@ s
                         </div>
 
                         <div class="form-group">
-                            <br>
                             <label for="prodi">Program Studi:</label><br />
                             <select class="input-form" id="prodi" name="prodi" required>
                                 <option value="">-- Pilih Program Studi --</option>
@@ -197,9 +195,21 @@ s
                                 <option value="BD">Bisnis Digital</option>
                             </select>
                         </div>
-                        <br>
-                        <button type="submit">Kirim</button>
-                        <button type="reset">Batal</button>
+
+                        <div class="form-group"
+                        <label fo="pesan">Pesan:</label><br />
+                        <textarea
+                        class="input-form"
+                        id="pesan"
+                        name="pesan"
+                        maxlength="300"
+                        placeholder="Tulis pesan Anda"
+                        required
+                        ></textarea>
+                    </div>
+                        
+                        <input type="submit" value="Kirim" />
+                        <input type="reset" value="Reset" />
                         </form>
                 </section>
             </main>
