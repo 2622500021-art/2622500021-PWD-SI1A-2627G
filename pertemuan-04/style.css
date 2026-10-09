@@ -13,14 +13,18 @@ body {
 header {
     background-color: #003366;
     color: #ffffff;
-    padding-bottom: 20px;
+    padding: 20px;
     margin-bottom: 20px;
     border: 1px solid #00264d;
 }
 
-header {
+header h1 {
     margin: 0 0 16px;
     font-size: 28px;
+}
+
+section {
+    width: 100%;
 }
 
 nav u1 {
@@ -71,7 +75,7 @@ section {
 }
 
 #home img{
-    display: block;
+    display: flex;
     width: 240px;
     max-width: 100%;
     height: auto;
@@ -81,7 +85,7 @@ section {
                 background-color: #ffffff;
                 border: 1px solid #d0d7de;
                 padding: 20px;
-                margin: 20px 0;
+                margin: 0;
                 font-family: Arial, sans-serif;
             }
 
@@ -89,6 +93,7 @@ section {
                 color: #003366;
                 border-bottom: 2px solid #003366;
                 padding-bottom: 6px;
+                margin-top: 0;
                 margin-bottom: 16px;
             }
 
@@ -98,8 +103,9 @@ section {
             }
 
             #about p {
-            margin: 6px 0;
-            padding: 6px 0;
+                line-height: 1.5;
+                margin: 6px 0;
+                padding: 6px 0;
                 border-bottom: 1px solid #e6e6e6;
             }
 
@@ -114,7 +120,7 @@ section {
                 background-color: #f8fafc;
                 border: 1px solid #cbd5e1;
                 padding: 20px;
-                margin: 20px 0;
+                margin: 0;
                 font-family: Arial, sans-serif;
             }
 
@@ -122,11 +128,12 @@ section {
                 color: #003366;
                 border-bottom: 2px solid #003366;
                 padding-bottom: 6px;
+                margin-top: 0;
                 margin-bottom: 16px;
             }
 
             .form-group {
-                margin-bottom: 12px 0;
+                margin: 12px 0;
             }
 
             #contact label {
@@ -142,6 +149,8 @@ section {
                 padding: 8px;
                 margin: 4px 0;
                 border: 1px solid #94a3b8;
+                width: 100%;
+                max-width: 100%;
             }
 
             #contact textarea {
