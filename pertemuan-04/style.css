@@ -75,7 +75,7 @@ section {
 }
 
 #home img{
-    display: flex;
+    display: block;
     width: 240px;
     max-width: 100%;
     height: auto;
