@@ -150,6 +150,7 @@ section {
             }
 
             #contact button {
+                cursor: pointer;
                 background-color: #003366;
                 color: #ffffff;
                 font-weight: bold;
@@ -162,6 +163,7 @@ section {
                 background-color: #f8fafc;
             }
 
+            /* Footer */
             footer {
                 background-color: #003366;
                 color: #ffffff;
