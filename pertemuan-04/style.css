@@ -27,7 +27,7 @@ section {
     width: 100%;
 }
 
-nav u1 {
+nav ul {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -47,7 +47,8 @@ nav a {
 
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr; /*DARI 2 KOLOM MENJADI 1 KOLOM*/
+    gap: 16px;
 }
         
 section {
@@ -80,6 +81,7 @@ section {
     max-width: 100%;
     height: auto;
     border: 1px solid #cbd5e1;
+    margin-bottom: 16px; 
 }
            #about {
                 background-color: #ffffff;
@@ -114,6 +116,17 @@ section {
                 margin: 8px 0;
                 padding: 8px 24px;
                 border: 1px solid #e6e6e6;
+            }
+
+            main {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            nav u1 {
+                flex-direction: row;
+                justify-self: flex-start;
+                align-items: center;
+                gap: 16px;
             }
 
             #contact {
