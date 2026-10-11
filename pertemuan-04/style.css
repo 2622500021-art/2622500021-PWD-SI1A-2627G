@@ -47,7 +47,7 @@ nav a {
 
 main {
     display: grid;
-    grid-template-columns: 1fr; /*DARI 2 KOLOM MENJADI 1 KOLOM*/
+    grid-template-columns: 1fr; /*1 Kolom saja = ke bawah*/
     gap: 16px;
 }
         
