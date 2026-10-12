@@ -179,6 +179,10 @@ section {
                 resize: vertical;
             }
 
+            #contact {
+                background-color: #f8fafc;
+            }
+
             /* Footer */
             footer {
                 background-color: #003366;
@@ -192,13 +196,10 @@ section {
             footer p {
                 margin: 0;
             }
-
             @media (min-width: 768px) {
-
-            /* aturan CSS untuk viewport dengan lebar minimal 768px */
-            main {
-                grid-template-columns: 1fr 1fr;
-            }
+                main {
+                    grid-template-columns: 1fr 1fr;
+                }
             nav ul {
                 flex-direction: row;
                 justify-content: flex-start;
