@@ -118,10 +118,6 @@ section {
                 border: 1px solid #e6e6e6;
             }
 
-            main {
-                grid-template-columns: 1fr 1fr;
-            }
-
             nav u1 {
                 flex-direction: row;
                 justify-self: flex-start;
@@ -135,6 +131,7 @@ section {
                 padding: 20px;
                 margin: 0;
                 font-family: Arial, sans-serif;
+                grid-column: 1 / -1;;
             }
 
             #contact h2 {
@@ -198,9 +195,18 @@ section {
             footer p {
                 margin: 0;
             }
-            @media (min-width: 800px) {
+            @media (min-width: 768px) {
                 main {
                     grid-template-columns: 1fr 1fr;
                 }
+            nav ul {
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+                gap: 16px;
+            }
+
+            #contact {
+                grid-column: 1 / -1;
             }
     
