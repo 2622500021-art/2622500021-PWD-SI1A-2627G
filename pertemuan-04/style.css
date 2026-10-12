@@ -1,6 +1,8 @@
-* {
+<style>
+{
     box-sizing: border-box;
 }
+
 body {
     margin: 0;
     padding: 12px;
@@ -74,7 +76,7 @@ section {
     margin: 0 0 16px;
 }
 
-#home img{
+#home img {
     display: block;
     width: 240px;
     max-width: 100%;
@@ -117,7 +119,7 @@ section {
                 border: 1px solid #e6e6e6;
             }
 
-            nav u1 {
+            nav ul {
                 flex-direction: row;
                 justify-self: flex-start;
                 align-items: center;
@@ -177,10 +179,6 @@ section {
                 resize: vertical;
             }
 
-            #contact {
-                background-color: #f8fafc;
-            }
-
             /* Footer */
             footer {
                 background-color: #003366;
@@ -194,10 +192,13 @@ section {
             footer p {
                 margin: 0;
             }
+
             @media (min-width: 768px) {
-                main {
-                    grid-template-columns: 1fr 1fr;
-                }
+
+            /* aturan CSS untuk viewport dengan lebar minimal 768px */
+            main {
+                grid-template-columns: 1fr 1fr;
+            }
             nav ul {
                 flex-direction: row;
                 justify-content: flex-start;
@@ -209,4 +210,5 @@ section {
                 grid-column: 1 / -1;
             }
         }
+        </style>
     
