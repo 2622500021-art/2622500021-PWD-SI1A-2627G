@@ -42,7 +42,6 @@ nav a {
     color: #ffffff;
     font-weight: bold;
     text-decoration: none;
-
 }
 
 main {
@@ -209,4 +208,5 @@ section {
             #contact {
                 grid-column: 1 / -1;
             }
+        }
     
