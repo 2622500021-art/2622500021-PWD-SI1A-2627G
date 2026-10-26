@@ -1,3 +1,4 @@
+Keluaran menggunakan echo 
 <!DOCTYPE html>
 <html lang="id">
     <head>
@@ -8,12 +9,18 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        
+        <
+
         <?php
-        //Pengujian awal eksekusi PHP.
-        echo "PHP berhasil dijalankan.";
+    //Komentar satu baris.
+        print "Keluaran menggunakan echo.";
+
+        /*
+        Komentar beberapa baris.
+        Komentar ini tidak ditampilkan pada halaman.
+        */
         ?>
-    
+
         <header>
             <div class="header top">
             <h1>PROFIL SAYA<hr></h1>
