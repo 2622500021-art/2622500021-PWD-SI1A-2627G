@@ -7,7 +7,7 @@ form.addEventListener('submit', function(e) {
     const user = document.getElementById('username').value;
     const pass = document.getElementById('password').value;
     
-    if (user === "admin" && pass === "admin123") {
+    if (user === "Liris Mart" && pass === "Belanja murah") {
         pesan.textContent = "✅ Login berhasil! Selamat datang, " + user;
         pesan.style.color = "green";
         // Arahkan ke halaman utama setelah login berhasil
