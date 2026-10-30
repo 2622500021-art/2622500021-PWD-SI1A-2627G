@@ -1,0 +1,10 @@
+.logo {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 12px;
+}
+.login-container { display:flex; justify-content:center; align-items:center; min-height:100vh; background: linear-gradient(135deg,#667eea,#764ba2); }
+.login-box { background:white; padding:25px; border-radius:12px; width:320px; text-align:center; }
