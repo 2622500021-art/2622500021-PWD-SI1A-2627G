@@ -3,27 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Liris Mart</title>
     <link rel="stylesheet" href="style.css">
-    <title>Modern Login - Toko Sembako Liritiari</title>
 </head>
 <body>
-    <div class="login-container">
-        <img src="image/logo.jpeg" alt="Logo Toko Sembako" style="width:80px; height:80px; border-radius:50%; display:block; margin:0 auto 10px;">
-        <h1>Toko Sembako Liris</h1>
-        <p>2622500021 - PWD-SI1A-2627G</p>
+    <div class="bg-wrapper"></div>
+    
+    <div class="login-card">
+        <img src="image/logo.jpeg" alt="Logo Liris Mart" class="logo">
+        
+        <h1 class="judul">Liris Mart</h1>
+        <p class="slogan">Sembako Murah & Bahagia</p>
+        <p class="info">"Beras, minyak, gula, telur?Lengkap!</p></map></p>
 
         <form id="loginForm" method="POST" action="">
-            <input type="text" id="username" placeholder="Username (admin)" required>
-            <input type="password" id="password" placeholder="Password (admin123)" required>
-            
-            <div class="login-box">
-                <button type="submit">Login</button>
-                <p id="pesan" class="pesan"></p>
+            <div class="input-group">
+                <input type="text" id="username" placeholder=" " required>
+                <label for="username">Username</label>
             </div>
+            
+            <div class="input-group">
+                <input type="password" id="password" placeholder=" " required>
+                <label for="password">Password</label>
+            </div>
+
+            <button type="submit" class="btn-login">Masuk</button>
+            
+            <p id="pesan" class="pesan"></p>
         </form>
-        
-        <h1>pertemuan-08</h1>
-        <p>Isi pertemuan-08.</p>
     </div>
 
     <script src="script.js"></script>
