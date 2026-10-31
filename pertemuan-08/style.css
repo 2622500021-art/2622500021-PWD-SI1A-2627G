@@ -1,6 +1,6 @@
 /* ===== HEADER ===== */
 header {
-  background-color: #776f17d7;
+  background-color: #ebd80ad7;
   color: #fff;
   padding: 15px 30px;
   display: flex;
@@ -35,7 +35,7 @@ header .logo {
 /* ===== NAVIGASI ===== */
 nav {
   width: 220px;
-  background-color: #3e7717;
+  background-color: #73d333;
   padding: 20px 0;
   color: #fff;
 }
