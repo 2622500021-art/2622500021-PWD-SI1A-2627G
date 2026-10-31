@@ -1,4 +1,3 @@
-/* ===== HEADER ===== */
 header {
   background-color: #167605d7;
   color: #fff;
@@ -26,13 +25,11 @@ header .logo {
   opacity: 0.9;
 }
 
-/* ===== WRAPPER ===== */
 .wrapper {
   display: flex;
   min-height: calc(100vh - 90px);
 }
 
-/* ===== NAVIGASI ===== */
 nav {
   width: 220px;
   background-color: #9db610;
@@ -62,7 +59,6 @@ nav ul li a.aktif {
   background-color: #c5c9c3;
 }
 
-/* ===== KONTEN ===== */
 main {
   flex: 1;
   padding: 30px;
@@ -99,7 +95,6 @@ td {
   border-bottom: 1px solid #eee;
 }
 
-/* ===== FOOTER ===== */
 footer {
   background-color: #333;
   color: #fff;
