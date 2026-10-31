@@ -1,3 +1,4 @@
+<a href="profile.php"class="aktif">Profil</a>
 <h2>Profil Toko</h2>
 <p><b>Nama Toko: </b>Liris Mart</p>
 <p><b></b>Pemilik:</b>Liristiari</p>
