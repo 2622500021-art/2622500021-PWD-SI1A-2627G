@@ -35,7 +35,7 @@ header .logo {
 /* ===== NAVIGASI ===== */
 nav {
   width: 220px;
-  background-color: #73d333;
+  background-color: #3f890f;
   padding: 20px 0;
   color: #fff;
 }
@@ -59,7 +59,7 @@ nav ul li a {
 
 nav ul li a:hover,
 nav ul li a.aktif {
-  background-color: #3e7717;
+  background-color: #060c02;
 }
 
 /* ===== KONTEN ===== */
