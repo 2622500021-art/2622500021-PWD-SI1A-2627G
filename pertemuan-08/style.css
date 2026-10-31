@@ -35,7 +35,7 @@ header .logo {
 /* ===== NAVIGASI ===== */
 nav {
   width: 220px;
-  background-color: #4a7c23;
+  background-color: #d0ec1b;
   padding: 20px 0;
   color: #fff;
 }
@@ -72,12 +72,12 @@ main {
 main h2 {
   color: #2d5016;
   margin-bottom: 20px;
-  border-bottom: 2px solid #4a7c23;
+  border-bottom: 2px solid #27db33;
   padding-bottom: 10px;
 }
 
 main h3 {
-  color: #4a7c23;
+  color: #98cf19;
   margin: 25px 0 10px;
 }
 
