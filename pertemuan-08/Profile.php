@@ -9,7 +9,6 @@
     <title>Profil Toko-Liris Mart</title>
 </head>
 <body>
-    <!-- Sertakan dan Navigasi --->
      <header>
         <img src="image/logo.jpeg" alt="Logo Liris Mart" class="logo"
 <div class="info-toko">
