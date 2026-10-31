@@ -1,66 +1,88 @@
-<!DOCTYPE html>
+<?php
+session_start();
+// Bisa ditambahkan pengecekan login jika dibutuhkan nanti
+?>
+<!doctype html>
 <html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Liris Mart</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!--LOGIN CARD - muncul pertama -->
-    <div class="login-card" id="loginCard"
-    <img src="image/logo.jpeg" class="loginCard"
-    <h2>Liris Mart</h2>
-    <p>Sembako Murah & Bahagia</p>
-
-    <from id="loginForm">
-         <input type="text" id="username" placeholder=" " required>
-        <input type="password" id="password" placeholder=" " required>
-    </from>
-</div>
-
-<!--HEADER + MENU - Sembunyi dulu-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beranda - Liris Mart</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
     <header>
-        <h1>Online shop</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-
-                <li><a href="products.html">Daftar Products</a></li>
-
-                <li><a href="contact.html">Contact</a></li>
-
-                <li><a href="#" onclick="logout ()">Logout</a><li>
-                </li>
-            </ul>
-        </nav>
+      <img src="image/logo.jpeg" alt="Logo Liris Mart" class="logo" />
+      <div class="info-toko">
+        <h1>Liris Mart</h1>
+        <p>Sembako Murah & Bahagia</p>
+      </div>
     </header>
-    <div class="bg-wrapper"></div>
-    
-    <div class="login-card">
-        <img src="image/logo.jpeg" alt="Logo Liris Mart" class="logo">
-        
-        <h1 class="judul">Liris Mart</h1>
-        <p class="slogan">Sembako Murah & Bahagia</p>
-        <p class="info">"Beras, minyak, gula, telur?Lengkap!</p></map></p>
 
-        <form id="loginForm" method="POST" action="">
-            <div class="input-group">
-                <input type="text" id="username" placeholder=" " required>
-                <label for="username">Username</label>
-            </div>
-            
-            <div class="input-group">
-                <input type="password" id="password" placeholder=" " required>
-                <label for="password">Password</label>
-            </div>
+    <div class="wrapper">
+      <!-- NAVIGASI -->
+      <nav>
+        <h3>Menu</h3>
+        <ul>
+          <li><a href="index.php" class="aktif">🏠 Home</a></li>
+          <li><a href="profile.php">👤 Profile</a></li>
+          <li><a href="registrasi.php">📝 Registrasi</a></li>
+          <li><a href="index.html">🚪 Keluar</a></li>
+        </ul>
+      </nav>
 
-            <button type="submit" class="btn-login">Masuk</button>
-            
-            <p id="pesan" class="pesan"></p>
-        </form>
+      <!-- KONTEN -->
+      <main>
+        <h2>Selamat Datang di Liris Mart 🛒</h2>
+        <p>
+          Selamat berbelanja kebutuhan pokok keluarga dengan harga terjangkau!
+        </p>
+
+        <h3>📋 Daftar Harga Produk</h3>
+        <table>
+          <tr>
+            <th>No</th>
+            <th>Nama Produk</th>
+            <th>Harga</th>
+            <th>Stok</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Beras Premium 5kg</td>
+            <td>Rp 75.000</td>
+            <td>Tersedia</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Minyak Goreng 1L</td>
+            <td>Rp 16.000</td>
+            <td>Tersedia</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Telur Ayam 1kg</td>
+            <td>Rp 28.000</td>
+            <td>Tersedia</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Gula Pasir 1kg</td>
+            <td>Rp 15.000</td>
+            <td>Tersedia</td>
+          </tr>
+        </table>
+
+        <h3>📍 Informasi Toko</h3>
+        <p><strong>Alamat:</strong> Jl. Merdeka No. 15, Pangkalpinang</p>
+        <p><strong>Telepon/WA:</strong> 0812-3456-7890</p>
+        <p><strong>Jam Buka:</strong> Senin–Minggu, 07.00–22.00 WIB</p>
+      </main>
     </div>
 
-    <script src="script.js"></script>
-</body>
+    <!-- FOOTER -->
+    <footer>
+      <p>&copy; 2622500021_Sembako Liris Mart_S1A_UTS Pemrograman Web Dasar</p>
+    </footer>
+  </body>
 </html>
