@@ -1,6 +1,6 @@
 /* ===== HEADER ===== */
 header {
-  background-color: #e53c2fd7;
+  background-color: #776f17d7;
   color: #fff;
   padding: 15px 30px;
   display: flex;
@@ -35,7 +35,7 @@ header .logo {
 /* ===== NAVIGASI ===== */
 nav {
   width: 220px;
-  background-color: #e53c2fd7;
+  background-color: #3e7717;
   padding: 20px 0;
   color: #fff;
 }
@@ -59,7 +59,7 @@ nav ul li a {
 
 nav ul li a:hover,
 nav ul li a.aktif {
-  background-color: #e53c2fd7;
+  background-color: #3e7717;
 }
 
 /* ===== KONTEN ===== */
@@ -70,14 +70,14 @@ main {
 }
 
 main h2 {
-  color: #e53c2fd7;
+  color: #3e7717;
   margin-bottom: 20px;
-  border-bottom: 2px solid #e53c2fd7;
+  border-bottom: 2px solid #3e7717;
   padding-bottom: 10px;
 }
 
 main h3 {
-  color: #e53c2fd7;
+  color: #3e7717;
   margin: 25px 0 10px;
 }
 
@@ -88,7 +88,7 @@ table {
 }
 
 th {
-  background-color: #e53c2fd7;
+  background-color: #3e7717;
   color: #fff;
   padding: 12px;
   text-align: left;
