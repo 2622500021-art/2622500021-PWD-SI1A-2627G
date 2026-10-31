@@ -7,13 +7,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!--LOGIN CARD - muncul pertama -->
+    <div class="login-card" id="loginCard"
+    <img src="image/logo.jpeg" class="loginCard"
+    <h2>Liris Mart</h2>
+    <p>Sembako Murah & Bahagia</p>
+
+    <from id="loginForm">
+         <input type="text" id="username" placeholder=" " required>
+        <input type="password" id="password" placeholder=" " required>
+    </from>
+</div>
+
+<!--HEADER + MENU - Sembunyi dulu-->
     <header>
         <h1>Online shop</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
+
                 <li><a href="products.html">Daftar Products</a></li>
+
                 <li><a href="contact.html">Contact</a></li>
+
+                <li><a href="#" onclick="logout ()">Logout</a><li>
+                </li>
             </ul>
         </nav>
     </header>
