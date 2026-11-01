@@ -29,8 +29,7 @@ contactForm.addEventListener("submit", (event) => {
 
   const nama = namaInput.value.trim();
   if (nama.length < 3 || nama.length > 50) {
-    formFeedback.textContent =
-      "Nama lengkap harus diisi 3 sampai 50 karakter.";
+    formFeedback.textContent = "Nama lengkap harus diisi 3 sampai 50 karakter.";
     return;
   }
 
@@ -42,13 +41,8 @@ contactForm.addEventListener("submit", (event) => {
   }
 
   const semester = Number(semesterInput.value);
-  if (
-    semesterInput.value === "" ||
-    semester < 1 ||
-    semester > 14
-  ) {
-    formFeedback.textContent =
-      "Semester harus diisi dengan angka 1 sampai 14.";
+  if (semesterInput.value === "" || semester < 1 || semester > 14) {
+    formFeedback.textContent = "Semester harus diisi dengan angka 1 sampai 14.";
     return;
   }
 
@@ -59,19 +53,16 @@ contactForm.addEventListener("submit", (event) => {
   }
 
   const jenisPesan = document.querySelector(
-    'input[name="jenis_pesan"]:checked'
+    'input[name="jenis_pesan"]:checked',
   );
   if (!jenisPesan) {
     formFeedback.textContent = "Pilih jenis pesan.";
     return;
   }
 
-  const topikDipilih = document.querySelectorAll(
-    'input[name="minat"]:checked'
-  );
+  const topikDipilih = document.querySelectorAll('input[name="minat"]:checked');
   if (topikDipilih.length === 0) {
-    formFeedback.textContent =
-      "Pilih minimal satu topik yang diminati.";
+    formFeedback.textContent = "Pilih minimal satu topik yang diminati.";
     return;
   }
 
@@ -88,8 +79,7 @@ contactForm.addEventListener("submit", (event) => {
   }
 
   if (pesan.length > 300) {
-    formFeedback.textContent =
-      "Pesan maksimal 300 karakter.";
+    formFeedback.textContent = "Pesan maksimal 300 karakter.";
     return;
   }
 
