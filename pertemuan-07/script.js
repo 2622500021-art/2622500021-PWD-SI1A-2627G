@@ -47,11 +47,6 @@ contactForm.addEventListener("submit", (event) => {
     formFeedback.textContent = "Masukkan alamat email yang valid.";
     return;
   }
-  const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  if (!emailPattern.test(email)) {
-    formFeedback.textContent = "Masukkan alamat email yang valid.";
-    return;
-  }
   if (semesterInput.value === "" || isNaN(semester)) {
     formFeedback.textContent = "Semester harus diisi dengan angka.";
     return;
