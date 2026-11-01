@@ -23,11 +23,14 @@
         <li><a href="index.php"
         Beranda</a></li>
         <li><a href="profile.php"class
-        class="aktif">Profil</a></li>
-        <li><a
-        href="daftar-produk.php">Daftar Produk</a></li>
-        <li><a href="index.html">
-            Kontak</a></li>
+        class="aktif">Profil Toko</a></li>
+        <li><a href="Registrasi.php">Produk</a></li>
+        <li><a href="Registrasi.php" class="aktif">Registrasi</a></li>
+        <li><a href="Daftar Produk.php">Tentang</a></li>
+        <li><a href="Daftar Produk.php">Daftar Produk</a></li>
+        <li><a href="kontak.php">Kontak</a></li>
+
+        
 </ul>
 </nav>
 <main>
