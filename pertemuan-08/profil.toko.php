@@ -6,12 +6,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Profil Toko - Liris Mart</title>
+    <title>Profil Pemilik Toko- Liris Mart</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <img src="image/fotoprofil.png" alt="Logo Liris Mart" class="logo" />
+      <img src="image/logo.jpeg" alt="Logo Liris Mart" class="logo" />
       <div class="info-toko">
         <h1>Liris Mart</h1>
         <p>Toko Kebutuhan Sehari-hari</p>
