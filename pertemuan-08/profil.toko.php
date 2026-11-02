@@ -11,7 +11,7 @@
   </head>
   <body>
     <header>
-      <img src="image/logo.jpeg" alt="Logo Liris Mart" class="logo" />
+      <img src="image/fotoprofil.png" alt="Logo Liris Mart" class="logo" />
       <div class="info-toko">
         <h1>Liris Mart</h1>
         <p>Toko Kebutuhan Sehari-hari</p>
