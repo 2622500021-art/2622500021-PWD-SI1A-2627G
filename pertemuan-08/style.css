@@ -146,3 +146,57 @@ footer {
   font-weight: bold;
   color: #2d5016;
 }
+
+.form-container {
+  max-width: 500px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #2d5016;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #3f6b1f;
+}
+
+.sukses {
+  background: #e8f5e9;
+  color: #2d5016;
+  padding: 12px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 15px;
+}
